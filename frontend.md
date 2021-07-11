@@ -2,7 +2,7 @@
 
 This is an API from NASA. When you give a to and from date, it will return you asteroids close to Earth. Use the NEO - Feed api endpoint.
 
-API documentation https://api.nasa.gov/api.html#neows-feed
+API documentation https://api.nasa.gov/
 
 This is a basic coding test to see if you can create a new project, call an API and display some data from the response. Use the endpoint to build whatever front end application you'd like - it's up to you to make it as simple or complex as you want!
 
