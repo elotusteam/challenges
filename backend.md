@@ -16,12 +16,9 @@
 
 > Time: 8 hours
 
-1. Write a simple HTTP server and handler that serves a HTML form
-   with 2 fields:
+0. Write a simple HTTP server with authorizing by OAuth2 standard protocol.
 
-   - A hidden input field named "auth" that has receives its input value passed
-     from the server code. This token should be passed as an environment variable to
-     the application.
+1. Write an API handler a form upload file
 
    - A file upload field named "data" (ie, `<input type="file"/>`) that uploads
      a file that the user selects (please do not waste time trying to make the
