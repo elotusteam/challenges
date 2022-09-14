@@ -16,10 +16,13 @@
 
 > Time: 8 hours
 
-1. Write an authorizing server, use OAuth2 standard protocol.
-   - Register
-   - Login
+1. Write an authorizing server, use [OAuth2](https://oauth.net/2/) standard protocol
+
+   - Register (just need username and password)
+   - Login (do not require ID token)
    - Revoke token by time
+
+> Please note: you do not need implement full features OAuth2, just follow our requirements
 
 2. Write an API handler a form upload file
 
