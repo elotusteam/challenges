@@ -16,27 +16,30 @@
 
 > Time: 8 hours
 
-0. Write a simple HTTP server with authorizing by OAuth2 standard protocol.
+1. Write an authorizing server, use OAuth2 standard protocol.
+   - Register
+   - Login
+   - Revoke token by time
 
-1. Write an API handler a form upload file
+2. Write an API handler a form upload file
 
    - A file upload field named "data" (ie, `<input type="file"/>`) that uploads
      a file that the user selects (please do not waste time trying to make the
      HTML form pretty -- we don't need HTML developers, we need Backend
      developers)
 
-2. The form above should POST data to the `/upload` handler, which should write
+   - The form above should POST data to the `/upload` handler, which should write
    the received file data to a temporary file in /tmp.
 
-3. Before accepting any data, you should check that the content type of the
+   - Before accepting any data, you should check that the content type of the
    uploaded file is an image, and that the auth token matches. If the
    submission is bad, please return a 403 HTTP error code. Images larger than 8
    megabytes should also be rejected.
 
-4. Write the image metadata (content type, size, etc) to a database of your
+   - Write the image metadata (content type, size, etc) to a database of your
    choice, including all relevant HTTP information.
 
-5. Do a short 1 or 2 paragraph write up with information on building/running
+   - Do a short 1 or 2 paragraph write up with information on building/running
    the application if relevant / necessary or non-standard.
 
 ## Notes
