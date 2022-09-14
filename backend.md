@@ -1,10 +1,11 @@
 # Backend Test
 
-- Total time: 10 hours (please no more!)
+- Total time: 50 hours (please no more!)
 
-## Coding Interview
+## Data Structures And Algorithms
 
 > Time: 2 hours
+> Please commit and push the code of this round after 2 hours of receiving the test, then you can start the Hackathon round
 
 1. [Gray Code](/code-challenges/gray-code.md)
 
@@ -12,9 +13,9 @@
 
 3. [Maximum Length of Repeated Subarray](/code-challenges/maximum-length-of-repeated-subarray.md)
 
-## Homework
+## Hackathon
 
-> Time: 8 hours
+> Time: 48 hours
 
 1. Write an authorizing server, use [OAuth2](https://oauth.net/2/) standard protocol
 
@@ -47,7 +48,7 @@
 
 ## Notes
 
-- Feel free to use any open source packages that you want -- we’re not looking
+- With The Hackathon, feel free to use any open source packages that you want -- we’re not looking
   for developers to constantly reinvent the wheel, but for developers who are
   able to make use of existing packages. This is a skills based assessment,
   not an attempt to assess whether or not you can write a form upload
@@ -57,7 +58,9 @@
   limited time. Part of this assessment is to determine what progress you are
   able to make in that timeframe.
 
-- When you are done, please commit all work to a Git repository, and send us
+- You should commit and push code for each feature, it will prove you know how to use git. Please do not commit all code in one commit
+
+- When you are done, please push all work to a Git repository, and send us
   the .tar.gz **including the .git directory**. Please **do not make the
   solution public**.
 
