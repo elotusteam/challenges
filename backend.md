@@ -37,8 +37,8 @@ Write a server with 2 features:
    - The form above should POST data to the `/upload` handler, which should write
    the received file data to a temporary file in /tmp.
 
-   - Before accepting any data, you should check that the content type of the
-   uploaded file is an image, and that the auth token matches. If the
+   - Before accepting any data, you should check authorization (token generate via feature 1) is valid and the content type of the
+   uploaded file is an image. If the
    submission is bad, please return a 403 HTTP error code. Images larger than 8
    megabytes should also be rejected.
 
