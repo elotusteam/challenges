@@ -17,7 +17,9 @@
 
 > Time: 48 hours
 
-1. Write an authorizing server, use [OAuth2](https://oauth.net/2/) standard protocol
+Write a server with 2 features:
+
+1. Authorizing, use [OAuth2](https://oauth.net/2/) standard protocol
 
    - Register (just need username and password)
    - Login (do not require ID token)
