@@ -38,8 +38,7 @@ Write a server with 2 features:
    the received file data to a temporary file in /tmp.
 
    - Before accepting any data, you should check authorization (token generate via feature 1) is valid and the content type of the
-   uploaded file is an image. If the
-   submission is bad, please return a 403 HTTP error code. Images larger than 8
+   uploaded file is an image. If the submission is bad, please return an error. Images larger than 8
    megabytes should also be rejected.
 
    - Write the image metadata (content type, size, etc) to a database of your
