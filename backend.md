@@ -48,6 +48,8 @@
 
 ## Notes
 
+- Use Go.
+
 - With The Hackathon, feel free to use any open source packages that you want -- we’re not looking
   for developers to constantly reinvent the wheel, but for developers who are
   able to make use of existing packages. This is a skills based assessment,
@@ -65,7 +67,6 @@
 
 - Bonus points:
 
-  - Use Go.
   - Properly comment your code and the use of environment variables or flags
     where possible.
   - Properly write a readme on how to get your code up and run.
