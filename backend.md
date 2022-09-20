@@ -61,8 +61,7 @@
 - You should commit and push code for each feature, it will prove you know how to use git. Please do not commit all code in one commit
 
 - When you are done, please push all work to a Git repository, and send us
-  the .tar.gz **including the .git directory**. Please **do not make the
-  solution public**.
+  the .tar.gz **including the .git directory**. Please **make sure the repository is public**.
 
 - Bonus points:
 
