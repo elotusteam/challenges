@@ -30,6 +30,10 @@ The following **additional** features are implemented:
 
 - [ ] List anything else that you can get done to improve the app functionality!
 
+## Notes
+
+- Please use ReactJS with typescript
+
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
