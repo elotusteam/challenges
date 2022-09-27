@@ -44,9 +44,6 @@ Write a server with 2 features:
    - Write the image metadata (content type, size, etc) to a database of your
    choice, including all relevant HTTP information.
 
-   - Do a short 1 or 2 paragraph write up with information on building/running
-   the application if relevant / necessary or non-standard.
-
 ## Notes
 
 - Use Go.
@@ -56,6 +53,8 @@ Write a server with 2 features:
   able to make use of existing packages. This is a skills based assessment,
   not an attempt to assess whether or not you can write a form upload
   library.
+  
+- Do a short 1 or 2 paragraph write up with information on building/running the application if relevant / necessary or non-standard.
 
 - It is not a problem if you are not able to complete all of the above in a
   limited time. Part of this assessment is to determine what progress you are
@@ -64,7 +63,7 @@ Write a server with 2 features:
 - You should commit and push code for each feature, it will prove you know how to use git. Please do not commit all code in one commit
 
 - When you are done, please push all work to a Git repository, and send us
-  the .tar.gz **including the .git directory**. Please **make sure the repository is public**.
+  the repository url. Please **make sure the repository is public**.
 
 - Bonus points:
 
