@@ -19,7 +19,7 @@
 
 Write a server with 2 features:
 
-1. Authenticate, use [OAuth2](https://oauth.net/2/) standard protocol
+1. Authenticate, use [OAuth2](https://oauth.net/2/) standard protocol with JWT token
 
    - Register (just need username and password)
    - Login (do not require ID token)
