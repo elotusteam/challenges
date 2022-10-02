@@ -18,7 +18,6 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-- [ ] User can pull to refresh the movie list.
 - [ ] Implement segmented control to switch between list view and grid view.
 - [ ] All images fade in.
 - [ ] Implement lazy load image.
