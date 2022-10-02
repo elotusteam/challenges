@@ -39,8 +39,57 @@ Output: [1,1]
 # Go Template
 
 ```go
-func sumOfDistancesInTree(n int, edges [][]int) []int {
-    
+package leetcode
+
+func sumOfDistancesInTree(N int, edges [][]int) []int {
+
+	tree, visited, count, res := make([][]int, N), make([]bool, N), make([]int, N), make([]int, N)
+	for _, e := range edges {
+		i, j := e[0], e[1]
+		tree[i] = append(tree[i], j)
+		tree[j] = append(tree[j], i)
+	}
+	deepFirstSearch(0, visited, count, res, tree)
+ DFS
+	visited = make([]bool, N)
+
+
+	deepSecondSearch(0, visited, count, res, tree)
+
+	return res
+}
+
+func deepFirstSearch(root int, visited []bool, count, res []int, tree [][]int) {
+	visited[root] = true
+	for _, n := range tree[root] {
+		if visited[n] {
+			continue
+		}
+		deepFirstSearch(n, visited, count, res, tree)
+		count[root] += count[n]
+)
+ count[n]
+		res[root] += res[n] + count[n]
+	}
+	count[root]++
+}
+
+
+func deepSecondSearch(root int, visited []bool, count, res []int, tree [][]int) {
+	N := len(visited)
+	visited[root] = true
+	for _, n := range tree[root] {
+		if visited[n] {
+			continue
+		}
+
+
+ count[n]
+ = N - count[n]
+
+		res[n] = res[root] + (N - count[n]) - count[n]
+		deepSecondSearch(n, visited, count, res, tree)
+	}
 }
 ```
 
