@@ -82,6 +82,22 @@ public:
  * @return {number[]}
  */
 var grayCode = function(n) {
-    
+    // power of 2
+    for (var i = 0; i < (1 << n); i++)
+    {
+        // Generating the decimal
+        // values of gray code then using
+        // bitset to convert them to binary form
+        var val = (i ^ (i >> 1));
+         
+        // Converting to binary string
+        s = val.toString(2);
+        process.stdout.write(s.padStart(4, '0') + " ");
+    }
 };
+// Driver Code
+let n = 4;
+   
+// Function call
+grayCode(n);
 ```
