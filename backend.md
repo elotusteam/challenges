@@ -19,10 +19,10 @@
 
 Write a server with 2 features:
 
-1. Authenticate, use [OAuth2](https://oauth.net/2/) standard protocol with OpenID Connect and JWT token
+1. Write a simple authentication using JWT token (with HS2256)
 
    - Register (just need username and password)
-   - Login (do not require ID token)
+   - Login
    - Revoke token by time
 
 > Please note: you do not need implement full features OAuth2, just follow our requirements
