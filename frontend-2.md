@@ -32,8 +32,8 @@ The following **additional** features are implemented:
 ## Requirements
 
 - Please use ReactJS with typescript
-- Please use Scss
-- Please do not use any css framework or UI library
+- Please use SCSS
+- Please do not use any CSS/SCSS framework or UI library
 
 ## Video Walkthrough
 
