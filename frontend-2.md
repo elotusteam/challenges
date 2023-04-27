@@ -29,9 +29,11 @@ The following **additional** features are implemented:
 
 - [ ] List anything else that you can get done to improve the app functionality!
 
-## Notes
+## Requirements
 
 - Please use ReactJS with typescript
+- Please use Scss
+- Please do not use any css framework or UI library
 
 ## Video Walkthrough
 
